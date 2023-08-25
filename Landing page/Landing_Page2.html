@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samir Fitness</title>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<style>
+  body {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_1280.jpg');
+    /* color: white; */
+    opacity: 1;
+  }
+
+  .left {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: inline-block;
+    /* border: 1px solid red; */
+  }
+
+  .left img {
+    width: 110px;
+    filter: invert(10%)
+      /*invert function is used to change the color of image*/
+  }
+
+  .left div {
+    line-height: 16px;
+    font-size: 16px;
+    text-align: center;
+    text-shadow:0.2px 0.5px white;
+  }
+
+  .mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 52%;
+    margin: 10px auto;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 10px;
+    text-shadow: 3px 3px black;
+  }
+
+  .navbar li a:hover,
+  .navbar li a:active {
+    color: grey;
+    text-decoration: underline;
+  }
+
+  .right {
+    position: absolute;
+    right: 0px;
+    top: 23px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+  }
+
+  .btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 10px;
+    color: white;
+    background-color: black;
+    padding: 6px 10px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: rgb(56, 53, 53);
+  }
+
+  .container {
+    /* border: 2px solid #0a3065; */
+    margin: 105px 30px;
+    padding: 6px 24px;
+    width: 30%;
+    border-radius: 10px;
+  }
+
+  .form-group input {
+
+    text-align: center;
+    display: block;
+    width: 284px;
+    padding: 2px;
+    margin: 6px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 1px 1px white;
+  }
+
+  .container button {
+    display: block;
+    width: 82%;
+    margin: 12px auto;
+    /* font-weight: bold; */
+    font-size: 20px;
+  }
+</style>
+
+<body>
+  <header class="header">
+    <div class="left">
+      <img src="https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839087_1280.jpg" alt="">
+      <div>Samir's Fitness</div>
+    </div>
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <button class="btn">Call Us</button>
+      <button class="btn">Email us</button>
+    </div>
+  </header>
+  <div class="container">
+    <h1>Join the best gym of Haldia now</h1>
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" placeholder="Enter your Name">
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Enter your Age">
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Enter your Gender">
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Enter your Locality">
+      </div>
+      <button class="btn">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+
+<style>
+  body {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://wallpapers.com/images/hd/travel-hd-2fsg31b3wqteinpa.jpg');
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+  }
+
+  .left {
+    display: block;
+    margin: 2px auto;
+    position: absolute;
+    top: 10px;
+    left: -21px;
+    border-radius: 10px;
+  }
+
+  .left li {
+    display: inline-block;
+  }
+
+  .left li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 8px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 30px;
+  }
+
+  .left li a:hover,
+  .left li a:active {
+    color: brown;
+    background-color: rgb(238, 158, 158);
+    text-decoration: underline;
+  }
+
+  .plot {
+    background-color: rgb(246 84 111);
+  }
+
+  .right {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: inline;
+  }
+
+  .right input:hover {
+    background-color: darkgreen;
+  }
+
+  .right button:hover {
+    background-color: darkgreen;
+  }
+
+  .btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 9px 8px 7px 9px;
+    background-color: rgb(45, 45, 220);
+    color: whitesmoke;
+    box-shadow: 1px 2px 2px 1px rgb(7, 7, 149);
+  }
+
+  #email {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 9px 80px 8px 9px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    text-align: left;
+  }
+
+  .container {
+    margin: 73px 50px;
+    width: 98%;
+    text-align: center;
+  }
+
+  .heading {
+    text-align: center;
+    margin: 2px 3px;
+    padding: 3px 5px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #top {
+    color: rgb(49, 49, 174);
+  }
+
+  .data {
+    color: white;
+  }
+
+  .info {
+    color: white;
+    text-align: left;
+    margin: 9px 17px;
+  }
+
+  .fa-square-twitter {
+    font-size: 25px;
+    color: #1b80d9;
+    margin: 3px 6px 5px 6px;
+    padding: 2px 2px;
+    cursor: pointer;
+  }
+
+  .fa-facebook {
+    font-size: 25px;
+    color: blue;
+    margin: 5px -4px 3px 68px;
+    padding: 2px 2px;
+    cursor: pointer;
+  }
+
+  .fa-wikipedia-w {
+    font-size: 25px;
+    color: black;
+    margin: 5px 3px 7px 10px;
+    padding: 2px 2px;
+    cursor: pointer;
+  }
+
+  .fa-instagram {
+    font-size: 25px;
+    color: red;
+    margin: 5px 5px 5px 5px;
+    padding: 2px 2px;
+    cursor: pointer;
+  }
+
+  .fa-square-twitter:hover {
+    background-color: grey;
+  }
+
+  .fa-facebook:hover {
+    background-color: grey;
+  }
+
+  .fa-wikipedia-w:hover {
+    background-color: grey;
+  }
+
+  .fa-instagram:hover {
+    background-color: grey;
+  }
+</style>
+
+<body>
+  <header class="header">
+    <ul class="left">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Tourist Places</a></li>
+      <li><a href="#">Offers</a></li>
+      <li><a href="#" class="plot">Contact Us</a></li>
+    </ul>
+  </header>
+
+
+  <div class="right">
+    <input type="email" id="email" placeholder="enter your email">
+    <button class="btn">sign up!</button>
+  </div>
+
+  <div class="container">
+    <div class="mid">
+      <h1 class="heading" id="top">HAPPY MIND TRAVELS</h1>
+      <h3 class="heading">LETS BEGIN THE JOURNEY</h3>
+      <br>
+
+    </div>
+    <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni veritatis exercitationem aspernatur
+      voluptatum pariatur perferendis illo consequatur, consequuntur delectus dolore repellat, ea similique harum sint
+      incidunt modi doloribus nisi suscipit.</p>
+    <br>
+    <p class="info">For further query , kindly visit our page or email us ,we will provide you all the informations</p>
+  </div>
+
+  <div class="icon">
+    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://wikipedia.com" target="_blank"><i class="fa-brands fa-wikipedia-w"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+  </div>
+</body>
+
+</html>
